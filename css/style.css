@@ -1,7 +1,135 @@
 @import url(variables.css);
  *{
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
  }
 
+body{
+   background-color: var(--color-primary);
+}
+
+.caja1{
+   width: 350px;
+   height: 268px;
+   background: linear-gradient(#979191 40%, rgb(33, 32, 32), rgb(0, 0, 0) );
+   background-attachment: fixed;
+   margin:15px;
+   border-radius:22px;
+   text-align:center;
+   line-height: 0px;
+   float: left;
+   margin-top: 185px;
+   padding:10px;
+}
+
+.cajasombra{
+   width: 329px;
+   height: 245px;
+   border: 1px solid #8f8c8c;
+   border-radius: 10px;
+   box-shadow:2px 2px 18px 1px #8f8c8c;
+}
+
+.contenedor{
+   width:1620px;
+   height:1115px;
+   margin:0 auto;
+   border-radius: 10px;
+   padding:45px;
+   margin-top:25px;
+}
+
+.star{
+   float:left;
+   margin:20px;
+   height:28px;
+   margin-top:30px;
+}
+
+.title{
+   color:rgb(255, 255, 255);
+   margin-top: 100px;
+   margin-left:-225px;
+   font-size:19px;
+   font-family: "SpaceMono";
+}
+
+.text{
+   color:rgb(255, 255, 255);
+   margin-top:45px;
+   margin-left:-20px;
+   font-size:16px;
+   font-family: "SpaceMono";
+}
+
+.text1{
+   color:rgb(255, 255, 255);
+   margin-top:25px;
+   margin-left:-70px;
+   font-size:16px;
+   font-family: "SpaceMono";
+}
+
+.text4{
+   color:rgb(255, 255, 255);
+   margin-top:25px;
+   margin-left:-30px;
+   font-size:16px;
+   font-family: "SpaceMono";
+}
+.text3{
+   color:rgb(255, 255, 255);
+   margin-top:25px;
+   margin-left:-155px;
+   font-size:16px;
+   font-family: "SpaceMono"; 
+}
+.textb{
+   color:rgb(255, 255, 255);
+   margin-top:60px;
+   margin-left:10px;
+   font-size:18px;
+   font-family: "SpaceMono";
+   
+}
+
+@font-face {
+   font-family: "Bitter";
+   src: url(/storage/font/bitter/Bitter-ExtraBold.ttf);
+}
+
+@font-face {
+   font-family: "SpaceMono";
+   src: url(/storage/font/space_mono/SpaceMono-Regular.ttf);
+}
+
+.titles{
+   color: #ffffff;
+   font-size: 37px;
+   font-family: "Bitter";
+   margin-left: 10px;
+   margin-top: 170px;
+}
+
+.titles2{
+   color: #ffffff;
+   font-size: 37px;
+   font-family: "Bitter";
+   margin-left: 10px;
+   margin-top:-30px
+}
+
+.text2{
+   color: #ffffff;
+   font-size:22px;
+   font-family: "SpaceMono";
+   margin-left: 10px;
+   margin-top: -15px;
+} 
+
+.boton{
+   background-color: #ffffff;
+   padding:25px;
+   border-radius: 50px;
+   text-decoration: none;
+}

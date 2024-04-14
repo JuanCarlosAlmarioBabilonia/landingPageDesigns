@@ -5,3 +5,42 @@
     box-sizing: border-box;
  }
 
+ *{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+body{
+   background-image: url(/storage/img/fondo23.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+}
+
+.container{
+   height:100vh;
+   width:75vw;
+   margin:0 auto; 
+   border: 1px solid rgb(255, 255, 255);
+}
+
+.titulo{
+   color:#ffffff;
+}
+
+.texto1{
+   color:#ffffff;
+}
+
+.texto2{
+   color:#ffffff;
+}
+
+.nro{
+   color:#ffffff;
+}
+
+.boton{
+   color: #000000;
+}

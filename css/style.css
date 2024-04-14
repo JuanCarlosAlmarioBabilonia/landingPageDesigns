@@ -27,20 +27,48 @@ body{
 
 .titulo{
    color:#ffffff;
+   margin-left: 4vw;
+   margin-top:20vh;
+   font-family: "LatoB";
+   font-size: 4.3vh;
 }
 
 .texto1{
    color:#ffffff;
+   margin-left: 4vw;
+   margin-top:2vh;
+   font-family: "LatoR";
+   font-size:2.4vh ;
 }
 
 .texto2{
    color:#ffffff;
+   font-size: 2.3vh;
+   margin-left:1vh;
+   margin-top:1vh;
+   font-family: "LatoL";
+
 }
 
 .nro{
    color:#ffffff;
+   font-family: "LatoB";
+   font-size: 3vh;
+   margin-left:1vh;
+   margin-top:-1vh
+
 }
 
 .boton{
    color: #000000;
+   transform: translate(4vw);
+   margin-top: 3vh;
+   font-size: 2.4vh;
+   font-family: "LatoR";
+   text-decoration: none;
+   background-color: #ffffff;
+   padding:2vh;
+   width:11vw;
+   border-radius: 1vw;
+   text-align: center;
 }

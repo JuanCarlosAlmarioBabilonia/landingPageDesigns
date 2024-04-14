@@ -21,7 +21,6 @@ body{
 
 .containerh{
    flex:1;
-   border:1px solid black
 }
 
 @font-face {
@@ -50,18 +49,44 @@ body{
 
 .texto2{
    color:#ffffff;
+   font-family: "Nova";
+   transform: translate(15.7vw, 4.5vh);
+   font-size: 2.14vh
 }
 
 .texto3{
    color:#ffffff;
+   font-family: "Nova";
+   transform: translate(15.7vw, 10.5vh);
+   font-size: 2.14vh
 }
 
 .numero1{
    color:#ffffff;
+   font-family: "ptserif";
+   transform: translate(12vw, 6.5vh);
+   font-size: 3vh;
 }
 
 .numero2{
    color:#ffffff;
+   font-family: "ptserif";
+   transform: translate(12vw, 13vh);
+   font-size: 3vh;
+}
+
+.img1{
+   width:18vw;
+   height:30vh;
+   transform: translate(15vw, 2vh);
+   z-index: -1;
+}
+
+.img2{
+   width:18vw;
+   height:30vh;
+   transform: translate(15vw, 8vh);
+   z-index: -1;
 }
 
 .boton{

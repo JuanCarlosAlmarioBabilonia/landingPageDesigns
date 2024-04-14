@@ -8,12 +8,30 @@ body{
    background-color: var(--color-primary);
 }
 
+.image1{
+   position:absolute;
+   z-index:-1;
+   display: flex;
+   margin-top: -2%;
+   margin-left:-2.6%;
+}
+
+.image2{
+   position:absolute;
+   z-index:-1;
+   display: flex;
+   margin-left: 28%;
+   border-radius: 20px;
+   margin-top:-2.4%
+}
+
+
 .caja1{
-   width: 350px;
-   height: 268px;
+   width: 320px;
+   height: 278px;
    background: linear-gradient(#979191 40%, rgb(33, 32, 32), rgb(0, 0, 0) );
    background-attachment: fixed;
-   margin:15px;
+   margin:8px;
    border-radius:22px;
    text-align:center;
    line-height: 0px;
@@ -23,20 +41,20 @@ body{
 }
 
 .cajasombra{
-   width: 329px;
-   height: 245px;
+   width: 299px;
+   height: 255px;
    border: 1px solid #8f8c8c;
    border-radius: 10px;
    box-shadow:2px 2px 18px 1px #8f8c8c;
 }
 
 .contenedor{
-   width:1620px;
+   width:1440px;
    height:1115px;
    margin:0 auto;
    border-radius: 10px;
    padding:45px;
-   margin-top:25px;
+   margin-top:-6px
 }
 
 .star{
@@ -49,7 +67,7 @@ body{
 .title{
    color:rgb(255, 255, 255);
    margin-top: 100px;
-   margin-left:-225px;
+   margin-left:-200px;
    font-size:19px;
    font-family: "SpaceMono";
 }
@@ -57,7 +75,7 @@ body{
 .text{
    color:rgb(255, 255, 255);
    margin-top:45px;
-   margin-left:-20px;
+   margin-left:10px;
    font-size:16px;
    font-family: "SpaceMono";
 }
@@ -65,7 +83,7 @@ body{
 .text1{
    color:rgb(255, 255, 255);
    margin-top:25px;
-   margin-left:-70px;
+   margin-left:-40px;
    font-size:16px;
    font-family: "SpaceMono";
 }
@@ -73,14 +91,14 @@ body{
 .text4{
    color:rgb(255, 255, 255);
    margin-top:25px;
-   margin-left:-30px;
+   margin-left: 1px;
    font-size:16px;
    font-family: "SpaceMono";
 }
 .text3{
    color:rgb(255, 255, 255);
    margin-top:25px;
-   margin-left:-155px;
+   margin-left:-130px;
    font-size:16px;
    font-family: "SpaceMono"; 
 }
@@ -116,7 +134,7 @@ body{
    font-size: 37px;
    font-family: "Bitter";
    margin-left: 10px;
-   margin-top:-30px
+   margin-top:-40px
 }
 
 .text2{
@@ -132,4 +150,5 @@ body{
    padding:25px;
    border-radius: 50px;
    text-decoration: none;
+   color:black
 }

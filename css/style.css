@@ -24,7 +24,41 @@ body{
    border:1px solid black
 }
 
+@font-face {
+   font-family: "ptserif";
+   src: url(/storage/font/PTSerif-Bold.ttf);
+}
 
+@font-face {
+   font-family: "Nova";
+   src: url(/storage/font/Mark\ Simonson\ \ Proxima\ Nova\ Regular.otf);
+}
 
+.titulos{
+   margin-top: 15vh;
+   margin-left: 5vw;
+   font-size: 4vh;
+   font-family: "ptserif";
+}
 
+.texto1{
+   margin-left: 5vw;
+   margin-top: 2vw;
+   font-size: 2.4vh;
+   font-family: "Nova";
+}
+
+.boton{
+   transform: translate(5vw);
+   margin-top: 3vh;
+   font-size: 2vh;
+   font-family: "Nova";
+   text-decoration: none;
+   color: #ffffff;
+   background-color: black;
+   padding:2vh;
+   width:11vw;
+   border-radius: 5vw;
+   text-align: center;
+}
 

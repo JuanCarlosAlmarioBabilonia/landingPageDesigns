@@ -5,3 +5,26 @@
     box-sizing: border-box;
  }
 
+body{
+   background-image: url(/storage/img/fondo.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+}
+
+.containerp{
+   display:flex;
+   height:100vh;
+   width:75vw;
+   margin:0 auto;   
+}
+
+.containerh{
+   flex:1;
+   border:1px solid black
+}
+
+
+
+
+

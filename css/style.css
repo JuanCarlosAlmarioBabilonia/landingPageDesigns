@@ -48,6 +48,22 @@ body{
    font-family: "Nova";
 }
 
+.texto2{
+   color:#ffffff;
+}
+
+.texto3{
+   color:#ffffff;
+}
+
+.numero1{
+   color:#ffffff;
+}
+
+.numero2{
+   color:#ffffff;
+}
+
 .boton{
    transform: translate(5vw);
    margin-top: 3vh;

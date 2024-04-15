@@ -11,6 +11,21 @@
    box-sizing: border-box;
 }
 
+@font-face {
+   font-family: "LatoB";
+   src: url(/storage/font/Lato-Black.ttf);
+}
+
+@font-face {
+   font-family: "LatoL";
+   src: url(/storage/font/Lato-Light.ttf);
+}
+
+@font-face {
+   font-family: "LatoR";
+   src: url(/storage/font/Lato-Regular.ttf);
+}
+
 body{
    background-image: url(/storage/img/fondo23.svg);
    background-repeat: no-repeat;
@@ -71,4 +86,17 @@ body{
    width:11vw;
    border-radius: 1vw;
    text-align: center;
+}
+
+.caja1{
+   width: 20vw;
+   height: 19vh;
+   background-color:#424242;
+   mix-blend-mode:exclusion; 
+   margin:-2vw;
+   border-radius:1.5vh;
+   float: left;
+   margin-top: 6vw;
+   margin-left:4.2vw;
+   padding:2vw;
 }

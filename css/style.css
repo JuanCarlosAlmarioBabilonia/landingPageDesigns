@@ -19,3 +19,39 @@
    background-size: contain;
    background-position: center;
 }
+
+@font-face {
+   font-family: "LatoB";
+   src: url(/storage/font/Lato-Bold.ttf);
+}
+
+@font-face {
+   font-family: "LatoR";
+   src: url(/storage/font/Lato-Regular.ttf);
+}
+
+.titulo{
+   font-family: "LatoB";
+   font-size: 4.5vh;
+   margin-top: 20vh;
+}
+
+.texto1{
+   font-family: "LatoR";
+   font-size: 2.7vh;
+   margin-top: 3.5vh;
+}
+
+.boton{
+   transform: translate(31vw);
+   margin-top: 3vh;
+   font-size: 2.4vh;
+   font-family: "LatoR";
+   text-decoration: none;
+   color: #ffffff;
+   background-color: #000000;
+   padding:2vh;
+   width:12.5vw;
+   border-radius: 5vw;
+   text-align: center;
+}

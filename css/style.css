@@ -5,3 +5,103 @@
     box-sizing: border-box;
  }
 
+ .container{
+   height:100vh;
+   width:75vw;
+   margin:0 auto; 
+   border: 1px solid rgb(255, 255, 255);
+   background-color: rgb(243, 243, 243);
+}
+
+
+@font-face {
+   font-family: "LatoB";
+   src: url(/storage/font/Lato-Bold.ttf);
+}
+
+@font-face {
+   font-family: "LatoR";
+   src: url(/storage/font/Lato-Regular.ttf);
+}
+
+@font-face {
+   font-family: "LatoL";
+   src: url(/storage/font/Lato-Light.ttf);
+}
+
+.titulo1{
+   font-family: "LatoB";
+   margin-top:-55vh;
+   margin-left:3vw;
+   font-size: 4.2vh;
+}
+
+.titulo2{
+   font-family: "LatoB";
+   margin-top:2vh;
+   margin-left:6.5vw;
+   font-size: 4.2vh;
+}
+
+.texto1{
+   font-family: "LatoR";
+   margin-top:3vh;
+   margin-left: 4.8vw;
+   font-size:2.7vh
+}
+
+.boton{
+   margin-top: -7.3vh;
+   font-size: 2.4vh;
+   font-family: "LatoR";
+   text-decoration: none;
+   color: #ffffff;
+   background-color: #000000;
+   padding:2vh;
+   width:12.5vw;
+   border-radius: 5vw;
+   text-align: center;
+}
+
+.img1{
+   margin-left: 40vw;
+   margin-top: -5vh;
+   width:32vw;
+}
+
+.img2{
+   margin-left:-1.8vw;
+   margin-top: -8.4vw;
+   width:0.32vw;
+}
+
+.img3{
+   margin-left:65vw;
+   margin-top: 8vh;
+   width:7vw;
+}
+
+.caja1{
+   width: 18.1vw;
+   height: 21vh;
+   background-color:#ffffff;
+   margin:-4.2vw;
+   float: left;
+   margin-top: 5vw;
+   margin-left:3.3vw;
+   padding:2vw;
+}
+
+.xd{
+   background-color:#c8d3ff;
+}
+
+.title{
+   font-family: "LatoB";
+   font-size: 2.2vh;
+}
+.texto2{
+   font-family: "LatoL";
+   font-size: 1.9vh;
+   margin-top: 1.5vh;
+}

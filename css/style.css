@@ -5,3 +5,115 @@
     box-sizing: border-box;
  }
 
+ @font-face {
+   font-family: "MontsM";
+   src: url(/storage/font/MontserratAlternates-Medium.otf);
+}
+
+@font-face {
+   font-family: "MontsR";
+   src: url(/storage/font/MontserratAlternates-Regular.otf);
+}
+
+@font-face {
+   font-family: "MontsSB";
+   src: url(/storage/font/MontserratAlternates-SemiBold.otf);
+}
+
+.container{
+   height:100vh;
+   width:75vw;
+   margin:0 auto; 
+   border: 1px solid rgb(255, 255, 255);
+   display: flex; 
+   flex-direction: column; 
+}
+
+body{
+   background-image: url(/storage/img/unsplash_xB4ExGcUai0.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+}
+
+.caja1{
+   width: 29vw;
+   height: 59vh;
+   background-color:rgba(0, 0, 0, 0.25);
+   margin:-2vw;
+   border-radius:4vh;
+   float: left;
+   margin-top: 10vw;
+   margin-left:5.2vw;
+   padding:2vw;
+   backdrop-filter: blur(3px);
+}
+
+.caja2 {
+   width: 13.6vw;
+   height: 29vh;
+   border-radius: 1.5vh;
+   margin: -0.1vw; 
+   padding: 2vw;
+   margin-top:-74vh;
+   margin-left:55.5vw
+}
+
+
+.caja3 {
+   width: 13.6vw;
+   height: 29vh;
+   border-radius: 1.5vh;
+   margin: 1vw; 
+   padding: 2vw;
+   margin-left:55.5vw
+}
+
+.caja4 {
+   width: 13.6vw;
+   height: 29vh;
+   border-radius: 1.5vh;
+   margin: -0.1vw;
+   padding: 2vw;
+   margin-left:55.5vw
+}
+
+.img{
+   width:14vw;
+   margin-top: -3.9vh;
+   margin-left: -2.3vw
+}
+
+.encabezado{
+   margin-top:2vh;
+   font-family: "MontsR";
+   font-size: 1.8vh;
+   color: #ffffff
+}
+
+.titulo{
+   margin-top:2vh;
+   font-family: "MontsSB";
+   font-size: 3.5vh;
+   color: #ffffff
+}
+
+.texto{
+   margin-top:2vh;
+   font-family: "MontsR";
+   font-size: 2.3vh;
+   color: #ffffff
+}
+
+.boton{
+   color: #ffffff;
+   margin-top: 2.5vh;
+   font-size: 2vh;
+   text-decoration: none;
+   background-color: #2282ff;
+   padding:1.5vh;
+   width:11.5vw;
+   border-radius: 2vw;
+   text-align: center;
+   font-family: "MontsM";
+}

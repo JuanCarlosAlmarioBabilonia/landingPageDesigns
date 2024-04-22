@@ -5,3 +5,147 @@
     box-sizing: border-box;
  }
 
+ @font-face {
+   font-family: "Rbm-B";
+   src: url(/storage/font/RobotoMono-Bold.ttf);
+}
+
+@font-face {
+   font-family: "Rbm-M";
+   src: url(/storage/font/RobotoMono-Medium.ttf);
+}
+
+@font-face {
+   font-family: "Rbm-R";
+   src: url(/storage/font/RobotoMono-Regular.ttf);
+}
+
+.container{
+   display: flex;
+   flex-wrap:wrap; 
+   height:85vh;
+   width:75vw;
+   margin:0 auto; 
+   border: 0.1px solid rgb(255, 255, 255);
+   padding:2vh;
+}
+
+.containerp{
+   display: flex;
+   flex-wrap:wrap; 
+   height:25vh;
+   gap: 2%;
+   width:75vw;
+   margin:0 auto; 
+   border: 1px solid rgb(255, 255, 255);
+   padding:2vh;
+   margin-top: 12%;
+}
+
+.container1{
+   width:45%;
+   height:40%;
+   margin-top:8%;
+}
+
+.container2{
+   width:45%;
+   height:40%;
+   margin-top:8%;
+}
+
+.container3{
+   border:0.1px solid rgb(255, 255, 255);
+   width:22%;
+   height:108%;
+   padding:2.5vh;
+   border-radius:2vh;
+   background-color: #F1C2B0;
+}
+
+.container4{
+   border:0.1px solid rgb(255, 255, 255);
+   width:22%;
+   height:108%;
+   padding:2.5vh;
+   border-radius:2vh;
+   background-color: #F9EB98;
+}
+
+.container5{
+   border:0.1px solid rgb(255, 255, 255);
+   width:22%;
+   height:108%;
+   padding:2.5vh;
+   border-radius:2vh;
+   background-color: #C0D9DD;
+}
+
+.container6{
+   border:0.1px solid rgb(255, 255, 255);
+   width:22%;
+   height:108%;
+   padding:2.5vh;
+   border-radius:2vh;
+   background-color: #6975E8;
+}
+
+.container2 img{
+   width:100%;
+   height:140%;
+   margin-top:-5%
+}
+
+.titulo h1{
+   font-size: 6.2vh;
+   margin-left:0.5vw;
+   margin-top: -2.5vh;
+   font-family: "Rbm-B";
+}
+
+.texto p{
+   font-size: 2.5vh;
+   margin-top: 1.5vh;
+   margin-left:0.8vw;
+   font-family: "Rbm-R";
+}
+
+.boton{
+   color: #ffffff;
+   transform: translate(1vw);
+   margin-top: 3.5vh;
+   font-size: 2.4vh;
+   text-decoration: none;
+   background-color: #000000;
+   padding:1.5vh;
+   width:13vw;
+   border-radius: 2vw;
+   text-align: center;
+   font-family: "Rbm-R";
+}
+
+.nro p{
+   font-family:"Rbm-R";
+   font-size: 5vh;
+   margin-top: -1vh;
+   color: #ffffff
+}
+
+.titulo2 p{
+   font-family:"Rbm-B";
+   font-size: 2.5vh;
+   margin-top: 0.5vh;
+}
+
+.texto2 p{
+   font-family:"Rbm-R";
+   font-size: 2vh;
+   margin-top: 1vh;
+}
+
+.logo{
+   position: absolute;
+   margin-left: 11.5vw;
+   margin-top: -0.5vh;
+   width:3vh;
+}

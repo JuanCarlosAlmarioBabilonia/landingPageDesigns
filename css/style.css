@@ -5,6 +5,16 @@
     box-sizing: border-box;
  }
 
+@font-face {
+   font-family: "AvenirH";
+   src: url(/storage/font/Avenir\ Heavy.ttf);
+}
+
+@font-face {
+   font-family: "AvenirR";
+   src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
+
  .container{
    display: flex;
    flex-wrap:wrap; 
@@ -12,7 +22,7 @@
    height:100vh;
    width:75vw;
    margin:0 auto; 
-   /* border: 0.1px solid rgb(0, 0, 0); */
+   border: 0.1px solid rgb(0, 0, 0);
    padding:3.5vh;
 }
 
@@ -23,4 +33,29 @@
 
 .gentext{
    margin-left: 1.5vw;
+}
+
+.num p{
+   font-family: "AvenirH";
+   font-size: 1.5vw;
+   color: #b5b5b5;
+}
+
+.texto2 p{
+   font-family: "AvenirR";
+   font-size: 1.2vw;
+}
+
+.titulo h1{
+   font-family: "AvenirH";
+   font-size: 7vh; 
+}
+
+.containerimgs img{
+   width:22%;
+   margin-top: 2vh;
+}
+
+.img{
+   margin-left: 0.8vw;
 }

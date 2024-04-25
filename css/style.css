@@ -14,3 +14,8 @@
    /* border: 0.1px solid rgb(0, 0, 0); */
    padding:3.5vh;
 }
+
+.left img{
+   height:95%;
+   margin-right: 4vh;
+}

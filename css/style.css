@@ -5,6 +5,17 @@
     box-sizing: border-box;
  }
 
+@font-face {
+   font-family: "AvenirH";
+   src: url(/storage/font/Avenir\ Heavy.ttf);
+}
+
+@font-face {
+   font-family: "AvenirR";
+   src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
+
+
  .container{
    display: flex;
    flex-wrap:wrap; 

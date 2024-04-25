@@ -54,3 +54,28 @@
    text-align: center;
    font-family: "AvenirR";
 }
+
+.right-top{
+   /* border: 1px solid black; */
+}
+
+.right-bottom{
+   /* border: 1px solid black; */
+   margin-top: 8vh;
+}
+
+.right-bottom2{
+   margin-top: 3vh;
+}
+
+.num p{
+   font-family: "AvenirH";
+   font-size: 3vh;
+   color:#6c6c6c
+}
+
+.texto2 p{
+   font-family:"AvenirR";
+   font-size: 2.6vh;
+}
+

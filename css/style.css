@@ -14,14 +14,36 @@
    flex-direction: column; 
 }
 
-.left{
+.top{
    display:flex;
    flex-direction: column;
    border: 1px solid black;
    padding:3vh;
    flex-direction: row;
+   gap:2vw
 }
 
 .text{
    border: 1px solid black
+}
+
+.imga{
+   margin-left:2vh;
+}
+
+.imga,
+.img1{
+   height:40vh
+}
+
+.text h1{
+   font-family: "AvenirH";
+}
+
+.bottom{
+   padding:3vh
+}
+
+.imgb {
+   margin-left: 2vh;
 }

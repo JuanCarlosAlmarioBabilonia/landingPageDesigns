@@ -20,24 +20,41 @@
    border: 1px solid black;
    padding:3vh;
    flex-direction: row;
-   gap:2vw
+   gap:2vw;
+   padding-top: 7vh;
 }
 
 .text{
-   border: 1px solid black
+   /* border: 1px solid black */
 }
 
 .imga{
-   margin-left:2vh;
+   margin-left:-1vh;
 }
 
 .imga,
 .img1{
-   height:40vh
+   height:45vh;
 }
+
+
+.img1{
+   margin-top: -4vh;
+}
+
+.imga{
+   margin-top: 8vh;
+}
+
 
 .text h1{
    font-family: "AvenirH";
+   font-size: 5vh;
+}
+
+.text p{
+   font-family: "AvenirR";
+   font-size: 2.4vh;
 }
 
 .bottom{
@@ -46,4 +63,17 @@
 
 .imgb {
    margin-left: 2vh;
+}
+
+.boton{
+   color: #ffffff;
+   margin-top: 2vh;
+   font-size: 1.7vh;
+   text-decoration: none;
+   background-color: #000000;
+   padding:1.5vh;
+   width:7.5vw;
+   border-radius: 1vh;
+   text-align: center;
+   font-family: "AvenirR";
 }

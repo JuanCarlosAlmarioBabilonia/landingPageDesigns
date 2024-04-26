@@ -7,9 +7,9 @@
 
  .container{
    height:100vh;
-   width:75vw;
+   width:58vw;
    margin:0 auto; 
-   border: 1px solid rgb(0, 0, 0);
+   /* border: 1px solid rgb(0, 0, 0); */
    display: flex; 
    flex-direction: column; 
 }
@@ -17,7 +17,7 @@
 .top{
    display:flex;
    flex-direction: column;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    padding:3vh;
    flex-direction: row;
    gap:2vw;
@@ -34,7 +34,7 @@
 
 .imga,
 .img1{
-   height:45vh;
+   height:40vh;
 }
 
 
@@ -58,11 +58,36 @@
 }
 
 .bottom{
-   padding:3vh
+   display:flex;
+   padding:3vh;
+   margin-top: -2vh;
+
 }
 
 .imgb {
-   margin-left: 2vh;
+   margin-left: 3vh;
+}
+
+.img2, 
+.imgb{
+   height:32.2vh
+}
+
+.p1 p{
+   margin-bottom: 0.5vh;
+   font-family: "AvenirH";
+   font-size: 2.5vh;
+   color:#a1a1a1
+
+}
+
+.p2 p,
+.p3 p{
+   margin-left: 1.5vw;
+   margin-bottom: 0.5vh;
+   font-family: "AvenirH";
+   font-size: 2.5vh;
+   color:#a1a1a1
 }
 
 .boton{

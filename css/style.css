@@ -23,20 +23,21 @@ body{
 } 
 
 .container{
-   height:107.5vh;
+   height:100vh;
    width:75vw;
    margin:0 auto; 
-   border: 0.1px solid rgb(255, 255, 255);
+   /* border: 0.1px solid rgb(255, 255, 255); */
+   padding:4vh
 }
 
 .caja1{
-   height:54vh;
-   width:38.5vw;
+   height:50vh;
+   width:36.2vw;
    border: 0.1px solid rgba(0, 0, 0, 0.25);
    background-color:rgba(0, 0, 0, 0.25);
    backdrop-filter: blur(3px);
    margin-left: 2.5vw ;
-   margin-top: 19vh;
+   margin-top: 15vh;
    border-radius: 3vh;
 }
 
@@ -73,7 +74,7 @@ body{
    margin-left: 2.5vw;
    font-family: "AvenirL";
    color: #ffffff;
-   margin-top: 2.8vh;
+   margin-top: 1.5vh;
    font-size: 2.8vh;
 }
 
@@ -88,12 +89,12 @@ body{
   width:8vw;
   border-radius: 2vw;
   text-align: center;
-  font-family: "AvenirL";
+  font-family: "AvenirH";
 }
 
 .caja2{
-  width: 69vw;
-  height:20vh;
+  width: 66vw;
+  height:17vh;
   margin:-6vw;
   margin-top: 4vw;
   margin-left:2.5vw;
@@ -104,31 +105,32 @@ body{
 }
 
 .caja3{
-  width: 17.7vw;
+  width: 15vw;
   float: left;
-  margin-left:2.5vw;
-  height:15.9vh;
+  margin-left:1vw;
+  height:18vh;
+  /* border: 1px solid blue; */
 }
 
 .caja4{
   width: 17.7vw;
   float: left;
   height:15.9vh;
-  margin-left:-0.4vw;
+  margin-left:1.5vw;
 }
 
 .caja5{
   width: 17.7vw;
   float: left;
   height:15.9vh;
-  margin-left:-0.4vw;
+  margin-left:-02vw;
 }
 
 .caja6{ 
   width: 13vw;
   height:15.9vh;
   float: left;
-  margin-left:-0.4vw;
+  margin-left:-1vw;
 }
 
 .imgx {
@@ -154,10 +156,7 @@ body{
 
 
 .titulo h2{
-  margin-top: 2vh;
+  margin-top: 1vh;
 }
 
-.text {
-  margin-top: 1vh;
-} 
 

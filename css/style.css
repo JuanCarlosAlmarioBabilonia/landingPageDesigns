@@ -68,7 +68,7 @@ body{
 
 .texto p{
    font-family: "MontsM";
-   font-size: 1.2vw;
+   font-size: 1.25vw;
    color: #FFFFFF;
    margin-top: 2vh;
    margin-left: 4vw;
@@ -91,14 +91,13 @@ body{
 .imgspeq{
    display:flex;
    /* border: 0.1px solid black; */
-   transform:translate(5.5vw);
-   width:68%;
-   margin-top:2vh
+   margin-top:2vh;
+   padding-left:5.5vw;
 }
 
 .imgspeq img{
    margin-left: -1.7vw;
-   width:25%
+   width:11vh
 }
 
 .inf{

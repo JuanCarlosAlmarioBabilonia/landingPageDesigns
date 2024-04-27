@@ -12,6 +12,14 @@
    background-position: center;
 }
 
+.contain{
+   display:flex;
+   /* border:0.1px solid rgb(255, 255, 255); */
+   height:70vh;
+   width:70vw;
+   color:white;
+}
+
  .container{
    display: flex;
    flex-direction: column;
@@ -36,4 +44,33 @@
 .img1{
    height:46vh;
    top:2vh
+}
+
+.titulo h1{
+   font-size: 6.6vh;
+   font-family: "Bitter";
+   padding-left: 3vw;
+   padding-top: 23.4vh;
+}
+
+.titulo p{
+   font-size: 2.05vh;
+   font-family: "SpaceMono";
+   padding-left: 3.1vw;
+   padding-top: 3vh;
+}
+
+
+.boton{
+   background-color: #ffffff;
+   transform: translate(3vw);
+   padding:1.5vh;
+   font-size: 1.8vh;
+   margin-top:3vh;
+   width:10vw;
+   text-align: center;
+   border-radius: 12vw;
+   text-decoration: none;
+   color:black;
+   font-family: "SpaceMono";
 }

@@ -9,27 +9,29 @@
    display: flex;
    flex-wrap:wrap; 
    height:100vh;
-   width:75vw;
+   width:78vw;
    margin:0 auto; 
-   border: 0.1px solid rgb(0, 0, 0);
+   /* border: 0.1px solid rgb(0, 0, 0); */
    padding:3.5vh;
+   background-color: #232323;
 }
 
 .left{
    display: flex;
    flex-direction: column;
-   border: 1px solid black;
-   width:30vw
+   /* border: 1px solid black; */
+   width:31vw;
+   padding-top: 13vh;
+   padding-left: 3vw;
 }
-
 
 
 .fila1{
    display:flex;
    flex-direction: row;
    flex-wrap: wrap;
-   border: 1px solid black;
-   width:41vw;
+   /* border: 1px solid black; */
+   width:43vw;
    align-items: flex-start;
    justify-content: space-between;
    padding-bottom: 0.5vh;
@@ -37,4 +39,43 @@
 
 .right img{
    height:22.5vh
+}
+
+.r1,
+.r2,
+.r3{
+   font-family: "PopB";
+   font-size: 4vh;
+}
+
+.left p{
+   font-family: "PopR";
+   padding-top: 2vh;
+   font-size: 2.7vh;
+   color: #ffffff;
+}
+
+.r1{
+   color: #FEC3C7
+}
+
+.r2{
+   color: #9AD7F3
+}
+
+.r3{
+   color: #6BDFDA
+}
+
+.boton{
+   color: #000000;
+   margin-top: 2vh;
+   font-size: 1.8vh;
+   text-decoration: none;
+   background-color: #ffffff;
+   padding:1.5vh;
+   width:8.5vw;
+   border-radius: 2vw;
+   text-align: center;
+   font-family: "PopR";
 }

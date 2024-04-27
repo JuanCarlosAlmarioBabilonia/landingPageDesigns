@@ -1,3 +1,13 @@
 :root{
     --color-primary:  #ff0000;
 }
+
+@font-face {
+    font-family: "PopB";
+    src: url(/storage/font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PopR";
+    src: url(/storage/font/Poppins-Regular.ttf);
+}

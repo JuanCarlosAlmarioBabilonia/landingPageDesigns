@@ -7,9 +7,9 @@
 
  .container{
    height:100vh;
-   width:76.5vw;
+   width:75vw;
    margin:0 auto; 
-   border: 1px solid rgb(255, 255, 255);
+   /* border: 1px solid rgb(0, 0, 0); */
    text-align: center;
 }
 @font-face {
@@ -26,45 +26,52 @@
    font-family: "AvenirH";
    margin: 2vw;
    font-size: 3vh;
-
+   color: #252525
 }
 
 .titulo1{
    font-family: "AvenirH";
-   margin-top: -5vh;
+   margin-top: -6vh;
    font-size: 3vh;
+   color: #252525
 }
 
 .texto1{
    font-family: "AvenirR";
    font-size: 2.5vh;
+   color: #252525
 }
 
 .boton{
    transform: translate(34vw);
-   margin-top: 3vh;
+   margin-top: 2vh;
    font-size: 2vh;
    font-family: "AvenirR";
    text-decoration: none;
    color: #ffffff;
-   background-color: #000000;
+   background-color: #252525;
    padding:1vh;
    width:7vw;
    border-radius: 1vw;
    text-align: center;
 }
 
-.caja1{
-   width: 16.7vw;
-   background-color:#ffffff;
-   margin:-3vw;
-   float: left;
-   margin-top: 3.5vw;
-   margin-left:3.5vw;
+.first{
+   display:flex;
+   flex-direction: column;
+   /* border: 1px solid blue; */
 }
 
-.img1{
-   width:100%;
-   height:100%
+.second{
+   display:flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   gap:1.5vh;
+   justify-content: center;
+   margin-top: 4.5vh;
+}
+
+.second img{
+   height:27vh
 }
 

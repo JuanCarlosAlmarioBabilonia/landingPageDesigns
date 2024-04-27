@@ -114,3 +114,46 @@
    padding-left: 3vw;
    font-size: 1.7vh;
 }
+
+.contain2{
+   display:flex;
+   /* border:0.1px solid rgb(255, 0, 0); */
+   height:30vh;
+   width:70vw;
+   color:white;
+   gap:1vw;
+   /* padding-top: 3vh;
+   padding-right: 1vw;
+   padding-bottom: 2vh;
+   padding-left: 3vw; */
+   padding: 3vh 6vh 2vh 3vw
+}
+
+.c1{
+   display: flex;
+   flex-direction: column;
+   border:0.1px solid rgb(145, 145, 145);
+   flex-grow: 1;
+   padding-left: 2vh;
+   border-radius: 2vh;
+   background: linear-gradient(#979191 40%, rgb(63, 63, 63), rgb(0, 0, 0) );
+   background-attachment: fixed;
+}
+
+.c1 h2{
+   font-family: "SpaceMono";
+   font-size: 2vh;
+   padding-top: 2vh;
+}
+
+.c1 p{
+   font-family: "SpaceMono";
+   font-size: 1.65vh;
+   padding-top: 1.5vh;
+}
+
+.c1 img{
+   height:3vh;
+   margin-top: 3vh;
+   margin-left: -13vw;
+}

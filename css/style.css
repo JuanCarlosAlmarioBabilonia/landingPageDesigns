@@ -1,5 +1,39 @@
 @import url(variables.css);
  *{
     padding: 0;
+    margin:0;
     box-sizing: border-box;
  }
+
+ body{
+   background-image: url(/storage/img/44.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+ .container{
+   display: flex;
+   flex-direction: column;
+   height:100vh;
+   width:70vw;
+   margin:0 auto; 
+   border: 0.1px solid rgb(0, 0, 0);
+   /* background-color: rgb(255, 255, 255); */
+}
+
+.img1,
+.img2{
+   position:absolute;
+   z-index:-1 
+}
+
+.img2{
+   left: 41.5vw;
+   height:70vh
+}
+
+.img1{
+   height:46vh;
+   top:2vh
+}

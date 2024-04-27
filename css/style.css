@@ -60,6 +60,9 @@
    padding-top: 3vh;
 }
 
+.titulo{
+   flex-grow: 0.2;
+}
 
 .boton{
    background-color: #ffffff;
@@ -73,4 +76,41 @@
    text-decoration: none;
    color:black;
    font-family: "SpaceMono";
+}
+
+.titulo1{
+   text-align: center;
+   padding-top: 51vh;
+   flex-grow: 1;
+}
+
+.titulo1 h1{
+   font-family: "Bitter2";
+   font-size: 5vh;
+   padding-left: 3vw;
+}
+
+.titulo1 p{
+   font-family: "SpaceMono";
+   padding-left: 3vw;
+   font-size: 1.7vh;
+}
+
+
+.titulo2{
+   flex-grow: 1.1;
+   text-align: center;
+   padding-top: 11.8vh;
+}
+
+.titulo2 h1{
+   font-family: "Bitter2";
+   font-size: 5.5vh;
+   padding-left:3vw;
+}
+
+.titulo2 p{
+   font-family: "SpaceMono";
+   padding-left: 3vw;
+   font-size: 1.7vh;
 }

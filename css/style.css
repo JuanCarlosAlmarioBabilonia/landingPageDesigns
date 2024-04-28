@@ -4,5 +4,20 @@
     margin: 0;
     box-sizing: border-box;
  }
+ 
+ body{
+  background-image: url(/storage/img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
-
+.container{
+  display: flex;
+  flex-direction:row;
+  height:100vh;
+  width:70vw;
+  margin:0 auto; 
+  /* border: 0.1px solid rgb(0, 0, 0); */
+  /* background-color: rgb(255, 255, 255); */
+}

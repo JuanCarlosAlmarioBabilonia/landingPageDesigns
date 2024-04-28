@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
  }
- 
+
  body{
   background-image: url(/storage/img/fondo.png);
   background-repeat: no-repeat;
@@ -20,4 +20,35 @@
   margin:0 auto; 
   /* border: 0.1px solid rgb(0, 0, 0); */
   /* background-color: rgb(255, 255, 255); */
+}
+
+.left{
+  /* border: 1px solid blue; */
+  width:35vw;
+  padding-left: 2vw;
+  padding-top: 20vh;
+}
+
+.left h1{
+  font-family: "PTB";
+  font-size: 8vh;
+}
+
+.left p{
+  font-family: "NovaR";
+  margin-top: 2vh;
+  font-size: 2.4vh;
+}
+
+.boton{
+  margin-top: 3vh;
+  font-size: 2vh;
+  font-family: "NovaR";
+  text-decoration: none;
+  color: #ffffff;
+  background-color: black;
+  padding:2vh;
+  width:11vw;
+  border-radius: 5vw;
+  text-align: center;
 }

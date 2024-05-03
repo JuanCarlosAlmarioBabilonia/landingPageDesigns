@@ -17,16 +17,17 @@ body{
    height:100vh;
    width:70vw;
    margin:0 auto; 
-   border: 0.1px solid rgb(0, 0, 0);
+   /* border: 0.1px solid rgb(0, 0, 0); */
    /* background-color: rgb(255, 255, 255); */
 }
 
 .left{
-   border: 1px solid rgb(0, 0, 0);
+   border: 0.1px solid rgb(0, 0, 0);
    border-radius: 1vw;
    margin: 20vh 5vh;
    padding:10vh 1.5vw;
-   height:31vw
+   height:31vw;
+   width:22vw
 }
 
 .t1,
@@ -39,27 +40,56 @@ body{
    display:flex;
    flex-direction: row;
    margin-top: 4vh;
-   gap:4vw
+   gap:2vw
 }
 
 .top p{
    font-family: "HR";
-   font-size: 1.2vw;
+   font-size: 1.25vw;
 }
 
 .t1 p,
 .t2 p{
    font-family: "HR";
-   font-size: 1.2vw;
+   font-size: 1.25vw;
+   width:9vw
 }
 
 .t1 h2,
 .t2 h2{
-   font-size: 1.9vw;
+   font-size: 1.5vw;
 }
 
 .oli{
    height:6vw;
    position: absolute;
    margin:7vw 10.5vw
+}
+
+.right{
+   margin:7vw 2vw
+}
+
+.right h1{
+   font-size: 2.8vw;
+   width:40vw
+}
+
+.right p{
+   font-family:"HR";
+   font-size: 1.18vw;
+   margin-top: 2vw;
+}
+
+.boton{
+   margin-top: 3vh;
+   font-size: 2vh;
+   font-family: "HR";
+   text-decoration: none;
+   color: #ffffff;
+   background-color: black;
+   padding:1.5vh;
+   width:10vw;
+   border-radius: 5vw;
+   text-align: center;
 }

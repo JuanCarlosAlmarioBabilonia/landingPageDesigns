@@ -5,3 +5,61 @@
     box-sizing: border-box;
  }
 
+body{
+   background-image: url(/storage/img/fondo54.svg);
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+}
+ .container{
+   display: flex;
+   flex-direction:row;
+   height:100vh;
+   width:70vw;
+   margin:0 auto; 
+   border: 0.1px solid rgb(0, 0, 0);
+   /* background-color: rgb(255, 255, 255); */
+}
+
+.left{
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 1vw;
+   margin: 20vh 5vh;
+   padding:10vh 1.5vw;
+   height:31vw
+}
+
+.t1,
+.t2{
+   display: flex;
+   flex-direction: column;
+}
+
+.bottom1{
+   display:flex;
+   flex-direction: row;
+   margin-top: 4vh;
+   gap:4vw
+}
+
+.top p{
+   font-family: "HR";
+   font-size: 1.2vw;
+}
+
+.t1 p,
+.t2 p{
+   font-family: "HR";
+   font-size: 1.2vw;
+}
+
+.t1 h2,
+.t2 h2{
+   font-size: 1.9vw;
+}
+
+.oli{
+   height:6vw;
+   position: absolute;
+   margin:7vw 10.5vw
+}

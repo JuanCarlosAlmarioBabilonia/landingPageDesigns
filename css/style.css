@@ -7,17 +7,17 @@
 
  @font-face {
    font-family: "MontsM";
-   src: url(/storage/font/MontserratAlternates-Medium.otf);
+   src: url(../storage/font/MontserratAlternates-Medium.otf);
 }
 
 @font-face {
    font-family: "MontsR";
-   src: url(/storage/font/MontserratAlternates-Regular.otf);
+   src: url(../storage/font/MontserratAlternates-Regular.otf);
 }
 
 @font-face {
    font-family: "MontsSB";
-   src: url(/storage/font/MontserratAlternates-SemiBold.otf);
+   src: url(../storage/font/MontserratAlternates-SemiBold.otf);
 }
 
 .container{
@@ -30,7 +30,7 @@
 }
 
 body{
-   background-image: url(/storage/img/unsplash_xB4ExGcUai0.svg);
+   background-image: url(../storage/img/unsplash_xB4ExGcUai0.svg);
    background-repeat: no-repeat;
    background-size: contain;
    background-position: center;
@@ -38,7 +38,7 @@ body{
 
 .caja1{
    width: 29vw;
-   height: 59vh;
+   height: 65vh;
    background-color:rgba(0, 0, 0, 0.25);
    margin:-2vw;
    border-radius:4vh;

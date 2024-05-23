@@ -7,17 +7,17 @@
 
  @font-face {
    font-family: "Rbm-B";
-   src: url(/storage/font/RobotoMono-Bold.ttf);
+   src: url(../storage/font/RobotoMono-Bold.ttf);
 }
 
 @font-face {
    font-family: "Rbm-M";
-   src: url(/storage/font/RobotoMono-Medium.ttf);
+   src: url(../storage/font/RobotoMono-Medium.ttf);
 }
 
 @font-face {
    font-family: "Rbm-R";
-   src: url(/storage/font/RobotoMono-Regular.ttf);
+   src: url(../storage/font/RobotoMono-Regular.ttf);
 }
 
 .container{
@@ -139,7 +139,7 @@
 
 .texto2 p{
    font-family:"Rbm-R";
-   font-size: 2vh;
+   font-size: 1.8vh;
    margin-top: 1vh;
 }
 

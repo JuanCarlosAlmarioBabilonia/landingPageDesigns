@@ -6,7 +6,7 @@
  }
 
  body{
-  background-image: url(/storage/img/fondo.png);
+  background-image: url(../storage/img/fondo.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

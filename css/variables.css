@@ -4,10 +4,10 @@
 
 @font-face {
     font-family: "NovaR";
-    src: url(/storage/font/Mark\ Simonson\ \ Proxima\ Nova\ Regular.otf);
+    src: url(../storage/font/Mark\ Simonson\ \ Proxima\ Nova\ Regular.otf);
 }
 
 @font-face {
     font-family: "PTB";
-    src: url(/storage/font/PTSerif-Bold.ttf);
+    src: url(../storage/font/PTSerif-Bold.ttf);
 }

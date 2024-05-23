@@ -7,12 +7,12 @@
 
  @font-face {
    font-family: "LatoB";
-   src: url(/storage/font/Lato-Bold.ttf);
+   src: url(../storage/font/Lato-Bold.ttf);
 }
 
 @font-face {
    font-family: "LatoR";
-   src: url(/storage/font/Lato-Regular.ttf);
+   src: url(../storage/font/Lato-Regular.ttf);
 }
 
 

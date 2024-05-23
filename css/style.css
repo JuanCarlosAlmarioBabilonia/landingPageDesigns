@@ -40,12 +40,12 @@ background-color: var(--color-primary);
 }
  @font-face {
    font-family: "Avenir";
-   src: url("/storage/font/avenir_ff/AvenirLTStd-Black.otf");
+   src: url("../storage/font/avenir_ff/AvenirLTStd-Black.otf");
  }
 
 @font-face {
    font-family: "Avenir2";
-   src: url("/storage/font/avenir_ff/AvenirLTStd-Roman.otf");
+   src: url("../storage/font/avenir_ff/AvenirLTStd-Roman.otf");
  }
 
  .title{

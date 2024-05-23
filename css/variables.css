@@ -4,10 +4,10 @@
 
 @font-face {
     font-family: "PopB";
-    src: url(/storage/font/Poppins-Bold.ttf);
+    src: url(../storage/font/Poppins-Bold.ttf);
 }
 
 @font-face {
     font-family: "PopR";
-    src: url(/storage/font/Poppins-Regular.ttf);
+    src: url(../storage/font/Poppins-Regular.ttf);
 }

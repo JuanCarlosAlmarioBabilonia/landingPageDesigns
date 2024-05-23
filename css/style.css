@@ -13,21 +13,21 @@
 
 @font-face {
    font-family: "LatoB";
-   src: url(/storage/font/Lato-Black.ttf);
+   src: url(../storage/font/Lato-Black.ttf);
 }
 
 @font-face {
    font-family: "LatoL";
-   src: url(/storage/font/Lato-Light.ttf);
+   src: url(../storage/font/Lato-Light.ttf);
 }
 
 @font-face {
    font-family: "LatoR";
-   src: url(/storage/font/Lato-Regular.ttf);
+   src: url(../storage/font/Lato-Regular.ttf);
 }
 
 body{
-   background-image: url(/storage/img/fondo23.svg);
+   background-image: url(../storage/img/fondo23.svg);
    background-repeat: no-repeat;
    background-size: contain;
    background-position: center;

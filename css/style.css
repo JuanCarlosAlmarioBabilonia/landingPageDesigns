@@ -7,22 +7,22 @@
 
  @font-face {
    font-family: "MontsEB";
-   src: url(/storage/font/Montserrat-ExtraBold.otf);
+   src: url(../storage/font/Montserrat-ExtraBold.otf);
 }
 
 @font-face {
    font-family: "MontsM";
-   src: url(/storage/font/MontserratAlternates-Medium.otf);
+   src: url(../storage/font/MontserratAlternates-Medium.otf);
 }
 
 
 @font-face {
    font-family: "Montsr";
-   src: url(/storage/font/MontserratAlternates-Regular.otf);
+   src: url(../storage/font/MontserratAlternates-Regular.otf);
 }
 
 body{
-   background-image: url(/storage/img/26.svg);
+   background-image: url(../storage/img/26.svg);
    background-repeat: no-repeat;
    background-size: contain;
    background-position: center;

@@ -16,17 +16,17 @@
 
 @font-face {
    font-family: "LatoB";
-   src: url(/storage/font/Lato-Bold.ttf);
+   src: url(../storage/font/Lato-Bold.ttf);
 }
 
 @font-face {
    font-family: "LatoR";
-   src: url(/storage/font/Lato-Regular.ttf);
+   src: url(../storage/font/Lato-Regular.ttf);
 }
 
 @font-face {
    font-family: "LatoL";
-   src: url(/storage/font/Lato-Light.ttf);
+   src: url(../storage/font/Lato-Light.ttf);
 }
 
 .titulo1{

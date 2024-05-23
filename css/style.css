@@ -7,16 +7,16 @@
 
  @font-face {
    font-family: "AvenirH";
-   src: url(/storage/font/Avenir\ Heavy.ttf);
+   src: url(../storage/font/Avenir\ Heavy.ttf);
 }
 
 @font-face {
    font-family: "AvenirL";
-   src: url(/storage/font/Avenir\ Light.ttf);
+   src: url(../storage/font/Avenir\ Light.ttf);
 }
 
 body{
-   background-image: url(/storage/img/AI\ image\ -\ OpenAI.svg);
+   background-image: url(../storage/img/AI\ image\ -\ OpenAI.svg);
    background-repeat: no-repeat;
    background-size: contain;
    background-position: center;

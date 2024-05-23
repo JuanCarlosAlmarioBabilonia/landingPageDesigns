@@ -6,7 +6,7 @@
  }
 
  body{
-   background-image: url(/storage/img/44.svg);
+   background-image: url(../storage/img/44.svg);
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center;

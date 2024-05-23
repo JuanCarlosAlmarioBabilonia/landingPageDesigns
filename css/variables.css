@@ -4,20 +4,20 @@
 
 @font-face {
     font-family: "HR";
-    src: url(storage/font/Helvetica\ Regular.otf);
+    src: url(../storage/font/Helvetica\ Regular.otf);
 }
 
 @font-face {
     font-family: "HL";
-    src: url(storage/font/helveticalt.ttf);
+    src: url(../storage/font/helveticalt.ttf);
 }
 
 @font-face {
     font-family: "LM";
-    src: url(storage/font/Lato-Medium.ttf);
+    src: url(../storage/font/Lato-Medium.ttf);
 }
 
 @font-face {
     font-family: "TNRB";
-    src: url(storage/font/times\ new\ roman\ bold.ttf);
+    src: url(../storage/font/times\ new\ roman\ bold.ttf);
 }
